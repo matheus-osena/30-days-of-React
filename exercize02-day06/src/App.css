@@ -1,0 +1,45 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+h1{
+  margin: 50px;
+  font-size: 50px;  
+}
+
+h2{
+  margin: 50px;
+  font-size: 20px;  
+}
+
+.pageBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.number{
+  padding: 30px;
+  text-decoration: none;
+}
+.impar{
+  background: red;
+}
+.par{
+  background: green;
+}
+
